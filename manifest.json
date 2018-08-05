@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Moments Sucks",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://twitter.com/*",
+        "*://m.twitter.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
